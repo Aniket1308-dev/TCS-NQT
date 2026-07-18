@@ -7,13 +7,11 @@ public class SumOfDigits
         int n = sc.nextInt();
         int sum = 0;
         n = Math.abs(n);
-        while(n>0)
+        while (n > 0)
         {
             sum = sum + n % 10;
             n = n / 10;
         }
         System.out.println(sum);
     }
-
 }
- 
